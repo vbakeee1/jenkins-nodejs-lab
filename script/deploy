@@ -1,9 +1,8 @@
 #!/bin/sh
 
 ssh app@162.243.154.176 <<EOF
-  cd ~/hello-jenkins
+  cd ~/jenkins-nodejs-lab
   git pull
-  npm install --production
-  forever restartall
+  npm install
   exit
 EOF
