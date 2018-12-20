@@ -3,6 +3,6 @@ var app = require('../app.js');
 
 describe('GET /', function() {
   it('respond with nodejs-lab', function(done) {
-    request(app).get('/').expect('hello nodejs from github', done);
+    request(app).get('/').expect('hello nodejs', done);
   });
 });
